@@ -20,7 +20,7 @@ public class AlunoServiceImpl implements IAlunoService {
     public Aluno create(AlunoForm form) {
         Aluno aluno = new Aluno();
         aluno.setNome(form.getNome());
-        aluno.setCpf((form.getCpf()));
+        aluno.setCpf(form.getCpf());
         aluno.setBairro(form.getBairro());
         aluno.setDataDeNascimento(form.getDataDeNascimento());
 

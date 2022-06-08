@@ -23,9 +23,10 @@ public interface IAvaliacaoFisicaService {
 
   /**
    * Retorna todas as Avaliações Física que estão no banco de dados.
+   *
    * @return - Uma lista com todas as Avaliações Física que estão salvas no DB.
    */
-  List<AvaliacaoFisica> getAll();
+  List<AvaliacaoFisicaForm> getAll();
 
   /**
    * Atualiza a avaliação física.
